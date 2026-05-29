@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio integrador</title>
+  </head>
+  <body>
+
+    <main class="container mx-auto">
+        <div class="bg-white p-8 rounded-xl shadow-md w-full max-w-md">
+            <form id="formulario" class="space-y-4">
+                <label for="nombre" class="block">Nombre</label>
+                <input type="text" id="nombre"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+        
+                <label for="email" class="block">Email</label>
+                <input type="email" id="email"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+        
+                <label for="edad" class="block">Edad</label>
+                <input type="number" id="edad"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+        
+                <button type="submit" class="bg-blue-600 text-white p-2 w-full">Enviar</button>
+            </form>
+        
+        </div>
+        
+        <p id="resultado" class="hidden mt-4 p-3 text-center"></p>
+
+      
+    </main>
+    
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

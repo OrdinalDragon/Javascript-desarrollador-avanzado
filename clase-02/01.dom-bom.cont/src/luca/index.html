@@ -38,35 +38,22 @@
 
         <button class= "rounded-2xl bg-green-500 hover:bg-green-700 px-3 py-2 border cursor-pointer text-white">Enviar</button>
       </form>
-
-      <!-- ! -------------------------------------------------------------------- -->
-      <!-- ! -------------------------------------------------------------------- -->
-      <!-- ! -------------------------------------------------------------------- -->
-      <!-- ! -------------------------------------------------------------------- -->
-
-      <form id="formu-desafio" class="border-2 mt-5 p-10 mb-20">
-
-        <div>
-          <label for="lbl-nombre">Nombre</label>
-          <input type="text" name="nombre" id="lbl-nombre" class="outline outline-sky-500 block">
-          <small id="error-nombre"></small>
-        </div>
-        <div>
-          <label for="lbl-email">Correo</label>
-          <input type="text" name="email" id="lbl-email" class="outline outline-sky-500 block">
-          <small id="error-email"></small>
-        </div>
-        <div>
-          <label for="lbl-edad">Edad</label>
-          <input type="number" name="edad" id="lbl-edad" class="outline outline-sky-500 block">
-          <small id="error-edad"></small>
-        </div>
-
-        <button class="mt-5 bg-sky-600 hover:bg-sky-800 cursor-pointer px-3 py-1 text-white">Enviar</button>
-
+      <form id="formularioLuca" class = "max-w-sm mx-auto px-5 py-10 border-style border-2 border-gray-300 rounded-lg p-6 mt-5">
+          
+          <div class="mb-5">
+            <label for="nombre" class="block mb-2.5 text-sm font-medium text-heading">Tu nombre</label>
+            <input type="text" id="nombre" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-lg focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="Juan Pérez" required />
+          </div>
+          <div class="mb-5">
+            <label for="email" class="block mb-2.5 text-sm font-medium text-heading">Tu email</label>
+            <input type="email" id="email" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-lg focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="JP@mail.com" required />
+          </div>
+          <div class="mb-5">
+            <label for="edad" class="block mb-2.5 text-sm font-medium text-heading">Tu edad</label>
+            <input type="number" id="edad" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-lg focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="25" required />
+          </div>
+          <button type="submit" class= "rounded-2xl bg-green-500 hover:bg-indigo-700 px-3 py-2 border cursor-pointer text-white">Enviar</button>
       </form>
-
-
     </main>
     
     <script type="module" src="/src/main.js"></script>
