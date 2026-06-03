@@ -85,5 +85,27 @@ peticion
 peticionReqRes() */
 
 // ! CRUD completo
+// https://vite.dev/guide/env-and-mode
 const apiProductos = import.meta.env.VITE_API_PRODUCTOS
 console.log(apiProductos);
+
+// CRUD
+// C-> Create -> Método/verbo POST
+// R-> READ -> Método/verbo GET
+// U-> UPDATE -> Método/verbo PUT - PATCH
+// D-> DELETE -> Método/verbo DELETE
+
+/* // PATCH
+const usuario = {
+    nombre: 'MAXI',
+    apellido: 'Principe',
+    rol: 'Docente',
+    correo: 'maxi@gmail.com'
+}
+
+// > envio objeto completo
+const usuario = {
+    apellido: 'Principe',
+} */
+
+    

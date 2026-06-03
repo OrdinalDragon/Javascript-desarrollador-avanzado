@@ -1,9 +1,40 @@
 {
-    "productos": [
-        { "id": 1, "nombre": "PC", "precio": 222.2 },
-        { "id": 2, "nombre": "PC Gamer", "precio": 333.3 },
-        { "id": 3, "nombre": "Notebook", "precio": 533.3 },
-        { "id": 4, "nombre": "Notebook Gamer", "precio": 733.3 },
-        { "id": 5, "nombre": "Mouse gamer", "precio": 73.3 }
-    ]
+  "productos": [
+    {
+      "nombre": "PC Escritorio",
+      "precio": 522.2,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "PC Gamer",
+      "precio": 333.3
+    },
+    {
+      "id": "3",
+      "nombre": "Notebook",
+      "precio": 533.3
+    },
+    {
+      "id": "4",
+      "nombre": "Notebook Gamer",
+      "precio": 733.3
+    },
+    {
+      "id": "5",
+      "nombre": "Mouse gamer",
+      "precio": 73.3
+    },
+    {
+      "nombre": "Monitor",
+      "precio": 333.32,
+      "id": "GYbXTaPB6MQ"
+    },
+    {
+      "nombre": "Caja de placa de video",
+      "precio": 920.32,
+      "id": "hrD9_i2lo7U"
+    }
+  ]
+
 }
