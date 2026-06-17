@@ -1,0 +1,5 @@
+@import 'bootstrap/dist/css/bootstrap.min.css'; /* Agrego la hoja de estilos al proyecto */
+
+.alert {
+  height: 100vh;
+}

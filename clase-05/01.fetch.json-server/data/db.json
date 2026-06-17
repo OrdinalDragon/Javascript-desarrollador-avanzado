@@ -1,0 +1,48 @@
+{
+  "productos": [
+    {
+      "nombre": "PC Escritorio",
+      "precio": 522.2,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "PC Gamer",
+      "precio": 333.3
+    },
+    {
+      "id": "3",
+      "nombre": "Notebook",
+      "precio": 533.3
+    },
+    {
+      "id": "4",
+      "nombre": "Notebook Gamer",
+      "precio": 733.3
+    },
+    {
+      "id": "5",
+      "nombre": "Mouse Gamer",
+      "precio": 73.3
+    },
+    {
+      "nombre": "Monitor",
+      "precio": 333.32,
+      "id": "DDzIAiSrOnY"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "Luis"
+    },
+    {
+      "id": "2",
+      "nombre": "Laura"
+    },
+    {
+      "id": "3",
+      "nombre": "Ana"
+    }
+  ]
+}
